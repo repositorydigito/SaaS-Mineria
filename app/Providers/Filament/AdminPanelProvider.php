@@ -33,9 +33,9 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->brandName('JCyR')
-            ->brandLogo(asset('images/jcyr.png'))
-            ->darkModeBrandLogo(asset('images/jcyr.png')) // Logo para modo oscuro
+            ->brandName('Digito')
+            ->brandLogo(asset('images/black.png'))
+            ->darkModeBrandLogo(asset('images/white.png')) // Logo para modo oscuro
             ->colors([
                 'primary' => Color::Blue,
             ])
